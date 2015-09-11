@@ -23,7 +23,10 @@
     <!-- Add your site or application content here -->
 
     <div class="container-fluid">
-    <div ng-view=""></div>
+      <div class="row">
+        <div ng-include="'./views/sidebar.html'"></div>
+        <div ng-view=""></div>
+      </div>
     </div>
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -44,6 +47,10 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/clients.js"></script>
+        <script src="scripts/controllers/resume.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <script src="scripts/controllers/sidebar.js"></script>
         <!-- endbuild -->
 </body>
 </html>
