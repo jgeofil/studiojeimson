@@ -1,0 +1,43 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-color: black;
+}
+
+@jeimson: blue;
+
+#title-studio {
+  color: white;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+#title-jeimson {
+  color: yellow;
+  font-size: 50px;
+  padding-left: 10px;
+  margin-top: -10px;
+  font-weight: 900;
+}
+
+#title-buzz {
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.sidebar-category {
+  color: white;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.sidebar-item {
+  color: #444;
+}
