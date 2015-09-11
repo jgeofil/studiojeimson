@@ -8,9 +8,12 @@
  * Controller of the studiojeimsonApp
  */
 angular.module('studiojeimsonApp')
-  .controller('SidebarCtrl', ['$location', function ($location) {
+  .controller('SidebarCtrl', ['$location', '$rootScope', function ($location, $rootScope) {
     this.setLoc = function(loc){
-      console.log("dsfafd")
-      $location.url(loc)
-    }
+      $location.url(loc);
+    };
+
+    this.projects = $rootScope.projects;
+    this.news = $rootScope.news;
+
   }]);

@@ -9,9 +9,5 @@
  */
 angular.module('studiojeimsonApp')
   .controller('ResumeCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
   });

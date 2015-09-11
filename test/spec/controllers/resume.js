@@ -17,7 +17,4 @@ describe('Controller: ResumeCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(ResumeCtrl.awesomeThings.length).toBe(3);
-  });
 });

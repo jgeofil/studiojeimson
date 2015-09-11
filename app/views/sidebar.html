@@ -1,13 +1,12 @@
-<div  ng-controller="SidebarCtrl as sidebar"
-      id="main-page-sidebar"
-      class="col-lg-3">
+<div  ng-controller="SidebarCtrl as sidebar">
 
-  <div id="title-studio">studio</div>
-  <div id="title-jeimson">JEIMSON</div>
-  <div id="title-buzz">Design, Live Visuals, Media Theory</div>
+  <div id="logo">
+    <div id="title-studio">studio</div>
+    <div id="title-jeimson">JEIMSON</div>
+    <div id="title-buzz">Design, Live Visuals, Media Theory</div>
+  </div>
 
-
-  <div class="sidebar-category">Info</div>
+  <h6>Info</h6>
 
   <div class="sidebar-item" ng-click="sidebar.setLoc('clients')">Clients</div>
   <div class="sidebar-item" ng-click="sidebar.setLoc('about')">About</div>
@@ -15,18 +14,21 @@
   <div class="sidebar-item" ng-click="sidebar.setLoc('contact')">Contact</div>
 
 
-  <div class="sidebar-category">News</div>
+  <h6>News</h6>
 
-  <div class="sidebar-item">Follow me on GrindR</div>
+  <div  ng-repeat="ne in sidebar.news"
+        ng-click="sidebar.setLoc('news/'+ne.file)"
+        class="sidebar-item">{{ne.title}}
+  </div>
 
 
-  <div class="sidebar-category">Projects</div>
-  <div class="sidebar-item">My Penis - A kitchen accessory</div>
-  <div class="sidebar-item">So many emotions, so little people to listen</div>
-  <div class="sidebar-item">Cats, cats, cats...</div>
-  <div class="sidebar-item">My Penis - A kitchen accessory</div>
-  <div class="sidebar-item">So many emotions, so little people to listen</div>
-  <div class="sidebar-item">Cats, cats, cats...</div>
+  <h6>Projects</h6>
+
+  <div  ng-repeat="proj in sidebar.projects"
+        ng-click="sidebar.setLoc('projects/'+proj.file)"
+        class="sidebar-item">{{proj.title}}
+  </div>
+
 
 
 </div>

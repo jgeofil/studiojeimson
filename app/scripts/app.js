@@ -44,7 +44,34 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/projects/:projectName', {
+        templateUrl: 'views/projects.html',
+        controller: 'ProjectsCtrl',
+        controllerAs: 'projects'
+      })
+      .when('/news/:newsName', {
+        templateUrl: 'views/news.html',
+        controller: 'NewsCtrl',
+        controllerAs: 'news'
+      })
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .run(function($rootScope, $http){
+    $http.get('projects/projects.json')
+      .success(function(data) {
+          $rootScope.projects=data;
+      })
+      .error(function(){
+          $rootScope.projects=[];
+      });
+    $http.get('news/news.json')
+      .success(function(data) {
+          $rootScope.news=data;
+      })
+      .error(function(){
+          $rootScope.news=[];
+      });
+
   });
