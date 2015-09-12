@@ -1,6 +1,12 @@
 [
   {
-    "title": "My Project",
-    "file": "example-project"
+    "title": "E25 ID",
+    "file": "e25-id",
+    "new": true
+  },
+  {
+    "title": "Speaker at the First of August Academy",
+    "file": "foa",
+    "new": true
   }
 ]

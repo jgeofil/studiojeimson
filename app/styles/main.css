@@ -12,7 +12,7 @@ html {
 body {
   padding: 0;
   background-color: black;
-  font-family: sans-serif;
+  font-family:  'Helvetica Neue', 'Helvetica', 'Open Sans';
   color: #444;
   font-size: 13px
 }
@@ -31,6 +31,24 @@ h6 {
     width: 940px;
 }
 
+#header {
+  height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#new-bar {
+  height: 100px;
+  background-color: yellow;
+  padding-left: 450px;
+  color: red;
+  font-size: 50px;
+}
+
+#new-text {
+  line-height: 100px;
+}
+
 #logo {
   height: 200px;
 }
@@ -43,7 +61,6 @@ h6 {
 #main-page-content {
   width: 640px;
   margin-left: 300px;
-  padding-top: 200px;
   padding-bottom: 100px;
 }
 
@@ -75,7 +92,25 @@ h6 {
   color: #666;
 }
 
+.active {
+  color: yellow;
+}
+
 u {
   border-bottom: 4px solid yellow;
   text-decoration: none;
+}
+
+i {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-link {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

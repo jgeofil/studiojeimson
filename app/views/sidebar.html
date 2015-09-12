@@ -8,16 +8,25 @@
 
   <h6>Info</h6>
 
-  <div class="sidebar-item" ng-click="sidebar.setLoc('clients')">Clients</div>
-  <div class="sidebar-item" ng-click="sidebar.setLoc('about')">About</div>
-  <div class="sidebar-item" ng-click="sidebar.setLoc('resume')">Resume</div>
-  <div class="sidebar-item" ng-click="sidebar.setLoc('contact')">Contact</div>
+  <div  class="sidebar-item"
+        ng-click="sidebar.setLoc('clients')"
+        ng-class="sidebar.getClass('/clients')">Clients</div>
+  <div  class="sidebar-item"
+        ng-click="sidebar.setLoc('about')"
+        ng-class="sidebar.getClass('/about')">About</div>
+  <div  class="sidebar-item"
+        ng-click="sidebar.setLoc('resume')"
+        ng-class="sidebar.getClass('/resume')">Resume</div>
+  <div  class="sidebar-item"
+        ng-click="sidebar.setLoc('contact')"
+        ng-class="sidebar.getClass('/contact')">Contact</div>
 
 
   <h6>News</h6>
 
   <div  ng-repeat="ne in sidebar.news"
         ng-click="sidebar.setLoc('news/'+ne.file)"
+        ng-class="sidebar.getClass('/news/'+ne.file)"
         class="sidebar-item">{{ne.title}}
   </div>
 
@@ -26,6 +35,7 @@
 
   <div  ng-repeat="proj in sidebar.projects"
         ng-click="sidebar.setLoc('projects/'+proj.file)"
+        ng-class="sidebar.getClass('/projects/'+proj.file)"
         class="sidebar-item">{{proj.title}}
   </div>
 
