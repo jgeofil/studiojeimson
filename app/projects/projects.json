@@ -1,12 +1,94 @@
 [
   {
-    "title": "E25 ID",
-    "file": "e25-id",
+    "title": "Amsterdam Eats",
+    "file": "amsterdam-eats",
     "new": true
   },
   {
-    "title": "Speaker at the First of August Academy",
-    "file": "foa",
+    "title": "Visuals by Studio Jeimson",
+    "file": "visuals-by-studio-jeimson",
     "new": true
-  }
+  },
+  {
+    "title": "Infinite Scroll Apocalypse",
+    "file": "first-of-august-academy",
+    "new": true
+  },
+  {
+    "title": "Night Ensemble",
+    "file": "night-ensemble",
+    "new": true
+  },  
+  {
+    "title": "IJSJES Rotterdam",
+    "file": "ijsjes",
+    "new": true
+  },
+  {
+    "title": "Subsonic: Void",
+    "file": "Void",
+    "new": true
+  },
+
+  {
+    "title": "Warehouse Elementstraat - E25ID",
+    "file": "e25id",
+    "new": true
+  },
+  {
+    "title": "Contra - the Weekender",
+    "file": "Contra-le-weekender",
+    "new": true
+  },
+  {
+    "title": "Contra - LP2, Ferro Dome",
+    "file": "contra-lp2-ferro-dome",
+    "new": true
+  },
+  {
+    "title": "Blijdorp Festival (video installation)",
+    "file": "blijdorp-festival-video-installation",
+    "new": true
+  },
+  {
+    "title": "Sekoia - Corporate Identity",
+    "file": "sekoia-corporate-identity",
+    "new": true
+  },
+  {
+    "title": "Sekoia - VJing",
+    "file": "sekoia-vjing",
+    "new": true
+  },
+  {
+    "title": "Submarine Wharf",
+    "file": "submarine-wharf",
+    "new": true
+  },
+  {
+    "title": "Theater Gajes - Agora Phobia",
+    "file": "theater-gajes-agora-phobia",
+    "new": true
+  },
+  {
+    "title": "DJ Damoon",
+    "file": "dj-damoon",
+    "new": true
+  },
+  {
+    "title": "Club Paradigm",
+    "file": "club-paradigm",
+    "new": true
+  },
+  {
+    "title": "Levels - Corporate Identity",
+    "file": "levels-corporate-identity",
+    "new": true
+  },
+  {
+    "title": "Phobia by Idan Gilony",
+    "file": "phobia-by-idan-gilony",
+    "new": true
+  }  
+
 ]

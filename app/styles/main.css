@@ -13,8 +13,9 @@ body {
   padding: 0;
   background-color: black;
   font-family:  'Helvetica Neue', 'Helvetica', 'Open Sans';
-  color: #444;
-  font-size: 13px
+  color: #666;
+  font-size: 12px;
+  font-weight:bold;
 }
 
 h6 {
@@ -22,8 +23,9 @@ h6 {
   font-weight: bolder;
   padding-top: 0px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 13px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight:bold;
 }
 
 .center {
@@ -38,29 +40,31 @@ h6 {
 }
 
 #new-bar {
-  height: 100px;
+  height: 30px;
   background-color: yellow;
-  padding-left: 450px;
+  margin-top: 19px;
+  padding-left: 520px;
   color: red;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 #new-text {
-  line-height: 100px;
+  line-height: 28px;
 }
 
 #logo {
-  height: 200px;
+  height: 150px;
+  padding-top: 50px;
 }
 
 #main-page-sidebar {
   position: fixed;
-  width: 300px;
+  width: 250px;
 }
 
 #main-page-content {
   width: 640px;
-  margin-left: 300px;
+  margin-left: 250px;
   padding-bottom: 100px;
 }
 
@@ -85,11 +89,11 @@ h6 {
 }
 
 .sidebar-item {
-  color: #444;
+  color: #666;
 }
 
 .sidebar-item:hover {
-  color: #666;
+  color: #939393;
 }
 
 .active {
