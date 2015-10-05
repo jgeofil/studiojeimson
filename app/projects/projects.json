@@ -10,44 +10,13 @@
     "new": true
   },
   {
-    "title": "Infinite Scroll Apocalypse",
-    "file": "first-of-august-academy",
-    "new": true
-  },
-  {
-    "title": "Night Ensemble",
-    "file": "night-ensemble",
-    "new": true
-  },  
-  {
-    "title": "IJSJES Rotterdam",
-    "file": "ijsjes",
-    "new": true
-  },
-  {
-    "title": "Subsonic: Void",
-    "file": "Void",
-    "new": true
-  },
-
-  {
-    "title": "Warehouse Elementstraat - E25ID",
+    "title": "the E25 ID",
     "file": "e25id",
     "new": true
   },
   {
-    "title": "Contra - the Weekender",
-    "file": "Contra-le-weekender",
-    "new": true
-  },
-  {
-    "title": "Contra - LP2, Ferro Dome",
-    "file": "contra-lp2-ferro-dome",
-    "new": true
-  },
-  {
-    "title": "Blijdorp Festival (video installation)",
-    "file": "blijdorp-festival-video-installation",
+    "title": "Infinite Scroll Apocalypse",
+    "file": "first-of-august-academy",
     "new": true
   },
   {
@@ -56,8 +25,28 @@
     "new": true
   },
   {
-    "title": "Sekoia - VJing",
-    "file": "sekoia-vjing",
+    "title": "Night Ensemble",
+    "file": "night-ensemble",
+    "new": true
+  },
+  {
+    "title": "Phobia by Idan Gilony",
+    "file": "phobia-by-idan-gilony",
+    "new": true
+  },  
+  {
+    "title": "Contra - the Weekender",
+    "file": "Contra-weekender",
+    "new": true
+  },
+  {
+    "title": "Contra - Ferro Dome",
+    "file": "contra-ferro-dome",
+    "new": true
+  },
+  {
+    "title": "Contra - Las Palmas",
+    "file": "contra-las-palmas",
     "new": true
   },
   {
@@ -66,8 +55,13 @@
     "new": true
   },
   {
-    "title": "Theater Gajes - Agora Phobia",
-    "file": "theater-gajes-agora-phobia",
+    "title": "IJSJES Rotterdam",
+    "file": "ijsjes",
+    "new": true
+  },
+  {
+    "title": "Paradigm Groningen",
+    "file": "club-paradigm",
     "new": true
   },
   {
@@ -76,19 +70,14 @@
     "new": true
   },
   {
-    "title": "Club Paradigm",
-    "file": "club-paradigm",
+    "title": "Theater Gajes - Agora Phobia",
+    "file": "theater-gajes-agora-phobia",
     "new": true
   },
   {
-    "title": "Levels - Corporate Identity",
-    "file": "levels-corporate-identity",
+    "title": "Subsonic: Void",
+    "file": "Void",
     "new": true
-  },
-  {
-    "title": "Phobia by Idan Gilony",
-    "file": "phobia-by-idan-gilony",
-    "new": true
-  }  
+  }
 
 ]
