@@ -14,8 +14,6 @@ angular.module('studiojeimsonApp')
     };
 
     this.getClass = function (path) {
-      console.log(path)
-      console.log($location.path().substr(0, path.length))
       if ($location.path().substr(0, path.length) === path) {
         return 'active';
       } else {
