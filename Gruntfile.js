@@ -359,6 +359,15 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>',
           src: [
             '*.{ico,png,txt}',
+            // OpenSHIFT node js
+            'server.js',
+            'deplist.txt',
+            'package.json',
+            '.openshift/{,*/}*',
+            'projects/{,*/}*',
+            'news/{,*/}*',
+            'views/{,*/}*',
+            // End OpenSHIFT
             '.htaccess',
             '*.html',
             'images/{,*/}*.{webp}',
