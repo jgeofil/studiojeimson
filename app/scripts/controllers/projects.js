@@ -10,4 +10,6 @@
 angular.module('studiojeimsonApp')
   .controller('ProjectsCtrl', ['$routeParams', function ($routeParams) {
     this.template = $routeParams.projectName;
+
+
   }]);
