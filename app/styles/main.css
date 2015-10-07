@@ -183,17 +183,13 @@ a {
   margin-bottom: 5px;
 }
 
-
-
-#gal-image img{
-  position: absolute;
-  height: 500px;
-  width: 640px;
+jeimson-gallery {
+  width: 100%;
 }
 
-#gal-image {
-  width: 640px;
-  height: 500px;
+.gal-image {
+  width: 100%;
+  padding-bottom: 0px;
 }
 
 #gal-controls {
@@ -212,16 +208,4 @@ a {
 }
 .gal-hover {
   color: white;
-}
-
-.gal-img-active {
-  opacity: 1 !important;
-}
-.gal-img-inactive {
-  opacity: 0 !important;
-}
-
-#gal-gal{
-  width: inherit;
-  padding-bottom: 10px;
 }
