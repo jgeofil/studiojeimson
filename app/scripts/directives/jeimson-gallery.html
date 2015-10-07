@@ -1,1 +1,19 @@
-<div>HElllo</div>
+<div  ng-transclude ng-show="false">
+</div>
+
+<div id="gal-gal">
+  <div id="gal-image">
+    <img ng-repeat="tag in tags track by $index" ng-src="{{tag.src}}" ng-show="isCurrent($index)">
+  </div>
+
+  <div id="gal-controls">
+    <div  ng-repeat="tag in tags track by $index"
+          ng-click="setCurrent($index)"
+          ng-mouseenter="hover=true"
+          ng-mouseleave="hover=false"
+          ng-class="{'gal-active': $index === current,
+                      'gal-hover': hover}">
+      {{tag.name}}
+    </div>
+  </div>
+</div>

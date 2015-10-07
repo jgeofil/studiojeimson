@@ -118,3 +118,46 @@ a {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+
+
+#gal-image img{
+  position: absolute;
+  height: 500px;
+  width: 640px;
+}
+
+#gal-image {
+  width: 640px;
+  height: 500px;
+}
+
+#gal-controls {
+  width: 640px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+#gal-controls div{
+  display: inline-table;
+  padding-right: 5px;
+}
+
+.gal-active {
+  color: yellow;
+}
+.gal-hover {
+  color: white;
+}
+
+.gal-img-active {
+  opacity: 1 !important;
+}
+.gal-img-inactive {
+  opacity: 0 !important;
+}
+
+#gal-gal{
+  width: inherit;
+  padding-bottom: 10px;
+}

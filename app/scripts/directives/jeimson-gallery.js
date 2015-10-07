@@ -11,8 +11,22 @@ angular.module('studiojeimsonApp')
     return {
       templateUrl: '../scripts/directives/jeimson-gallery.html',
       restrict: 'E',
+      transclude: true,
       link: function postLink(scope, element, attrs) {
-        //element.text('this is the jeimsonGallery directive');
+        scope.tags = element.find("img");
+      },
+      controller: function ($scope) {
+        $scope.current = 0;
+
+        $scope.isCurrent = function(index){
+          console.log(index + Date())
+          return $scope.current === index;
+        };
+
+        $scope.setCurrent = function(index){
+          $scope.current = index;
+        };
+
       }
     };
   });
