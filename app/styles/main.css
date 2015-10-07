@@ -28,6 +28,36 @@ h6 {
   font-weight:bold;
 }
 
+h7 {
+  color: yellow;
+  font-weight: bolder;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+h8 {
+  font-style:italic;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+h9 {
+  color: white;
+  font-style: normal;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 34px;
+  font-family: 'fontyfont'
+}
+
+
 .center {
     margin: auto;
     width: 940px;
@@ -35,26 +65,60 @@ h6 {
 
 #header {
   height: 100px;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
-#new-bar {
-  height: 30px;
-  background-color: yellow;
-  margin-top: 19px;
-  padding-left: 520px;
-  color: red;
-  font-size: 20px;
+
+
+
+
+.about-col {
+
+  width:310px;
+  display:inline-block;
+  vertical-align: top;
+
 }
+.about-col-first {
+  margin-right: 15px;
+}
+
+
+@font-face {
+  font-family: 'fontyfont';
+  src: url('../fonts/ITCAvantGardePro BoldObl.otf')  format('opentype');
+  font-weight: normal;
+}
+
+
+
+
+
 
 #new-text {
-  line-height: 28px;
+  margin-top: 47px;
+  position: absolute;
+  padding-left: 500px;
+  width: 60px;
 }
 
+#new-bar {
+  margin-top: 42px;
+  position: absolute;
+  background-color: yellow;
+  width: 640px;
+  height: 28px;
+}
+
+
+
+
+
+
 #logo {
-  height: 150px;
-  padding-top: 50px;
+  height: 130px;
+  padding-top: 30px;
 }
 
 #main-page-sidebar {

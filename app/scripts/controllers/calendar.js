@@ -8,5 +8,5 @@
  * Controller of the studiojeimsonApp
  */
 angular.module('studiojeimsonApp')
-  .controller('ClientsCtrl', function () {
+  .controller('CalendarCtrl', function () {
   });

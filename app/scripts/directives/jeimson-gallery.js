@@ -19,6 +19,7 @@ angular.module('studiojeimsonApp')
         $scope.current = 0;
 
         $scope.isCurrent = function(index){
+
           return $scope.current === index;
         };
 

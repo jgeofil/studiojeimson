@@ -2,27 +2,24 @@
 
   <div id="logo">
 
-<img src="images/logotype-studio-jeimson/logotype-studio-jeimson.png">
+<img src="images/_logotype-studio-jeimson/logotype-studio-jeimson6-01.png" width=190px >
 
   </div>
 
   <h6>Info</h6>
 
   <div  class="sidebar-item"
-        ng-click="sidebar.setLoc('clients')"
-        ng-class="sidebar.getClass('/clients')">Clients</div>
-  <div  class="sidebar-item"
         ng-click="sidebar.setLoc('about')"
         ng-class="sidebar.getClass('/about')">About</div>
   <div  class="sidebar-item"
-        ng-click="sidebar.setLoc('resume')"
-        ng-class="sidebar.getClass('/resume')">Resume</div>
-  <div  class="sidebar-item"
         ng-click="sidebar.setLoc('contact')"
         ng-class="sidebar.getClass('/contact')">Contact</div>
+  <div  class="sidebar-item"
+        ng-click="sidebar.setLoc('calendar')"
+        ng-class="sidebar.getClass('/calendar')">Calendar</div>
 
 
-  <h6>News</h6>
+  <h6>Novelties</h6>
 
   <div  ng-repeat="ne in sidebar.news"
         ng-click="sidebar.setLoc('news/'+ne.file)"
