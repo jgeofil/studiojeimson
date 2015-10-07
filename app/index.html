@@ -26,11 +26,16 @@
     <div class="center">
         <div  id="main-page-sidebar" ng-include="'./views/sidebar.html'"></div>
         <div  id="main-page-content">
+        
           <div id="header">
-            <div id="new-bar" ng-show="true">
-              <div id="new-text">NEW</div>
-            </div>
+            
+           <div id="new-bar"> 
+           </div>
+           
+           <img src="images/_header/NEW.gif" id="new-text">
+                      
           </div>
+          
           <div ng-view=""></div>
         </div>
     </div>
