@@ -12,14 +12,13 @@ angular.module('studiojeimsonApp')
       templateUrl: '../scripts/directives/jeimson-gallery.html',
       restrict: 'E',
       transclude: true,
-      link: function postLink(scope, element, attrs) {
+      link: function postLink(scope, element) {
         scope.tags = element.find("img");
       },
       controller: function ($scope) {
         $scope.current = 0;
 
         $scope.isCurrent = function(index){
-          console.log(index + Date())
           return $scope.current === index;
         };
 
