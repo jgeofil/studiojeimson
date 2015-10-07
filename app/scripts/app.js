@@ -24,20 +24,15 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/clients', {
-        templateUrl: 'views/clients.html',
-        controller: 'ClientsCtrl',
-        controllerAs: 'clients'
-      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
-      .when('/resume', {
-        templateUrl: 'views/resume.html',
-        controller: 'ResumeCtrl',
-        controllerAs: 'resume'
+      .when('/calendar', {
+        templateUrl: 'views/calendar.html',
+        controller: 'CalendarCtrl',
+        controllerAs: 'calendar'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

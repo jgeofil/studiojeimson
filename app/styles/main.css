@@ -28,6 +28,36 @@ h6 {
   font-weight:bold;
 }
 
+h7 {
+  color: yellow;
+  font-weight: bolder;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+h8 {
+  font-style:italic;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+h9 {
+  color: white;
+  font-style: normal;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 34px;
+  font-family: 'fontyfont'
+}
+
+
 .center {
     margin: auto;
     width: 940px;
@@ -39,6 +69,27 @@ h6 {
   padding-bottom: 50px;
 }
 
+
+
+
+
+.about-col {
+
+  width:310px;
+  display:inline-block;
+  vertical-align: top;
+
+}
+.about-col-first {
+  margin-right: 15px;
+}
+
+
+@font-face {
+  font-family: 'fontyfont';
+  src: url('../fonts/ITCAvantGardePro BoldObl.otf')  format('opentype');
+  font-weight: normal;
+}
 
 
 
