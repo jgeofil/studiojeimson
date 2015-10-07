@@ -13,7 +13,7 @@ body {
   padding: 0;
   background-color: black;
   font-family:  'Helvetica Neue', 'Helvetica', 'Open Sans';
-  color: #666;
+  color: #686868;
   font-size: 12px;
   font-weight:bold;
 }
@@ -28,33 +28,31 @@ h6 {
   font-weight:bold;
 }
 
-h7 {
-  color: yellow;
-  font-weight: bolder;
-  padding-top: 0px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  font-weight:bold;
-}
-
-h8 {
-  font-style:italic;
-  padding-top: 0px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  font-weight:bold;
-}
-
-h9 {
+.title {
   color: white;
   font-style: normal;
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 34px;
   font-family: 'fontyfont'
+}
+
+.white {
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+.yellow {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+.italic {
+  font-style:italic;
+  font-size: 12px;
+  font-weight:bold;
 }
 
 
@@ -71,15 +69,17 @@ h9 {
 
 
 
-
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
 
 .about-col {
-
   width:310px;
   display:inline-block;
   vertical-align: top;
-
 }
+
 .about-col-first {
   margin-right: 15px;
 }
@@ -90,8 +90,6 @@ h9 {
   src: url('../fonts/ITCAvantGardePro BoldObl.otf')  format('opentype');
   font-weight: normal;
 }
-
-
 
 
 
@@ -112,10 +110,6 @@ h9 {
 }
 
 
-
-
-
-
 #logo {
   height: 130px;
   padding-top: 30px;
@@ -132,19 +126,6 @@ h9 {
   padding-bottom: 100px;
 }
 
-#title-studio {
-  color: white;
-  font-size: 30px;
-  padding-top: 50px;
-}
-
-#title-jeimson {
-  color: yellow;
-  font-size: 50px;
-  padding-left: 10px;
-  margin-top: -10px;
-  font-weight: 900;
-}
 
 #title-buzz {
   color: white;
@@ -153,11 +134,11 @@ h9 {
 }
 
 .sidebar-item {
-  color: #666;
+  color: #686868;
 }
 
 .sidebar-item:hover {
-  color: #939393;
+  color: #FFF;
 }
 
 .active {
