@@ -36,7 +36,7 @@ h6 {
 }
 
 .white {
-  color: white;
+  color: white !important;
   font-weight: bolder;
   font-size: 12px;
   font-weight:bold;
@@ -128,6 +128,15 @@ a:active  {color:yellow; background-color:transparent; text-decoration:none}
   padding-bottom: 100px;
 }
 
+.email {
+  padding-top: 25px;
+  color: white;
+}
+
+.icon-space{
+padding-right: 5px;
+
+}
 
 #title-buzz {
   color: white;

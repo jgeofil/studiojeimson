@@ -4,6 +4,8 @@ var express = require('express');
 var fs      = require('fs');
 
 
+
+
 /**
  *  Define the sample application.
  */
@@ -118,6 +120,8 @@ var SampleApp = function() {
         ['images', 'scripts', 'styles', 'projects', 'news', 'views', 'fonts'].forEach(function (dir){
           self.app.use('/'+dir, express.static(__dirname+'/'+dir));
         });
+
+        self.app.use(express.favicon(__dirname + '/favicon.ico'));
 
         //  Add handlers for the app (from the routes).
         for (var r in self.routes) {

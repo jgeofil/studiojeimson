@@ -368,6 +368,7 @@ module.exports = function (grunt) {
             'news/{,*/}*',
             'views/{,*/}*',
             'fonts/{,*/}*',
+            'favicon.ico',
             // End OpenSHIFT
             '.htaccess',
             '*.html',
