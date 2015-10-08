@@ -19,11 +19,6 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
       .when('/calendar', {
         templateUrl: 'views/calendar.html',
         controller: 'CalendarCtrl',
@@ -45,7 +40,7 @@ angular
         controllerAs: 'news'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/about'
       });
   })
   .run(function($rootScope, $http){
