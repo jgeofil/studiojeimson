@@ -31,7 +31,7 @@ h6 {
 .title {
   color: white;
   font-style: normal;
-  font-size: 34px;
+  font-size: 35px;
   font-family: 'fontyfont'
 }
 
@@ -55,7 +55,6 @@ h6 {
   font-weight:bold;
 }
 
-
 .center {
     margin: auto;
     width: 940px;
@@ -67,12 +66,15 @@ h6 {
   padding-bottom: 50px;
 }
 
+.shiny-news {
+  background-image: url('../images/_header/shine.gif');
+  background-repeat: no-repeat;
+}
 
-
-a:link    {color:green; background-color:transparent; text-decoration:none}
-a:visited {color:pink; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline}
-a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+a:link    {color:#686868; background-color:transparent; text-decoration:none}
+a:visited {color:#686868; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:none}
+a:active  {color:yellow; background-color:transparent; text-decoration:none}
 
 .about-col {
   width:310px;
@@ -175,7 +177,6 @@ jeimson-gallery {
 
 #gal-controls {
   width: 640px;
-  height: 50px;
   padding-top: 5px;
 }
 

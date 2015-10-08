@@ -24,11 +24,6 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
-      })
       .when('/calendar', {
         templateUrl: 'views/calendar.html',
         controller: 'CalendarCtrl',
@@ -54,19 +49,6 @@ angular
       });
   })
   .run(function($rootScope, $http){
-    $http.get('projects/projects.json')
-      .success(function(data) {
-          $rootScope.projects=data;
-      })
-      .error(function(){
-          $rootScope.projects=[];
-      });
-    $http.get('news/news.json')
-      .success(function(data) {
-          $rootScope.news=data;
-      })
-      .error(function(){
-          $rootScope.news=[];
-      });
+
 
   });

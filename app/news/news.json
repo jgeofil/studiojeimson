@@ -1,6 +1,7 @@
 [
   {
     "title": "Breaking News",
-    "file": "example-news"
+    "file": "example-news",
+    "shiny": true
   }
 ]

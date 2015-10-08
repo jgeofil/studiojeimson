@@ -12,6 +12,7 @@ angular.module('studiojeimsonApp')
       templateUrl: '../scripts/directives/jeimson-gallery.html',
       restrict: 'E',
       transclude: true,
+      scope: true,
       link: function postLink(scope, element) {
         scope.tags = element.find("img");
       },
