@@ -367,6 +367,7 @@ module.exports = function (grunt) {
             'projects/{,*/}*',
             'news/{,*/}*',
             'views/{,*/}*',
+            'fonts/{,*/}*',
             // End OpenSHIFT
             '.htaccess',
             '*.html',
