@@ -9,7 +9,7 @@
 angular.module('studiojeimsonApp')
   .directive('jeimsonGallery', function () {
     return {
-      templateUrl: '../scripts/directives/jeimson-gallery.html',
+      templateUrl: '../views/jeimson-gallery.html',
       restrict: 'E',
       transclude: true,
       scope: true,
