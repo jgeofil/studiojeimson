@@ -42,8 +42,16 @@ h6 {
   font-weight:bold;
 }
 
+.instagramlink {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bolder;
+  font-size: 12px;
+  font-weight:bold;
+}
+
 .newslink {
-  color: rgb(131, 255, 197) !important;
+  text-decoration: underline !important;
   font-weight: bolder;
   font-size: 12px;
   font-weight:bold;
@@ -78,10 +86,10 @@ h6 {
   background-repeat: no-repeat;
 }
 
-a:link    {color:#686868; background-color:transparent; text-decoration:none}
-a:visited {color:#686868; background-color:transparent; text-decoration:none}
-a:hover   {color:white; background-color:transparent; text-decoration:none}
-a:active  {color:yellow; background-color:transparent; text-decoration:none}
+a:link    {color:#686868; background-color:transparent; text-decoration:underline}
+a:visited {color:#686868; background-color:transparent; text-decoration:underline}
+a:hover   {color:white; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
 
 .about-col {
   width:310px;
