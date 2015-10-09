@@ -42,6 +42,13 @@ h6 {
   font-weight:bold;
 }
 
+.newslink {
+  color: rgb(131, 255, 197) !important;
+  font-weight: bolder;
+  font-size: 12px;
+  font-weight:bold;
+}
+
 .yellow {
   color: yellow;
   font-weight: bolder;
