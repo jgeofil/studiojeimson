@@ -45,12 +45,12 @@ angular
   })
   .run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
        $rootScope
-          .$on('$stateChangeSuccess',
+          .$on('$routeChangeSuccess',
               function(event){
 
                   if (!$window.ga)
                       return;
-
+                  console.log("state")
                   $window.ga('send', 'pageview', { page: $location.path() });
           });
   }]);
