@@ -44,13 +44,9 @@ angular
       });
   })
   .run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
-       $rootScope
-          .$on('$routeChangeSuccess',
-              function(event){
-
-                  if (!$window.ga)
-                      return;
-                  console.log("state")
-                  $window.ga('send', 'pageview', { page: $location.path() });
+       $rootScope.$on('$routeChangeSuccess',
+          function(){
+            if (!$window.ga) {return;}
+            $window.ga('send', 'pageview', { page: $location.path() });
           });
   }]);
