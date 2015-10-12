@@ -117,7 +117,7 @@ var SampleApp = function() {
         self.createRoutes();
         self.app = express.createServer();
 
-        ['images', 'scripts', 'styles', 'projects', 'news', 'views', 'fonts'].forEach(function (dir){
+        ['images', 'scripts', 'styles', 'projects', 'news', 'views', 'fonts', 'thumbs'].forEach(function (dir){
           self.app.use('/'+dir, express.static(__dirname+'/'+dir));
         });
 
