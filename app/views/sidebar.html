@@ -1,12 +1,19 @@
 <div  ng-controller="SidebarCtrl as sidebar">
 
   <div id="logo">
-
-<img src="images/_logotype-studio-jeimson/logotype-studio-jeimson6-01.png" width=190px >
+    <a href="http://www.studiojeimson.com">
+    <img src="images/_logotype-studio-jeimson/logotype-studio-jeimson6-01.png" alt="wtf" width="190">
+    </a>
 
   </div>
 
   <h6>Info</h6>
+
+  <div  ng-repeat="ne in sidebar.news"
+        ng-click="sidebar.setLoc('news')"
+        ng-class="sidebar.getClass('/news')"
+        class="sidebar-item">{{ne.title}}</div>
+
 
   <div  class="sidebar-item"
         ng-click="sidebar.setLoc('about')"
@@ -15,7 +22,6 @@
   <div  class="sidebar-item"
         ng-click="sidebar.setLoc('calendar')"
         ng-class="sidebar.getClass('/calendar', false)">Calendar</div>
-
 
   <h6>Projects</h6>
 

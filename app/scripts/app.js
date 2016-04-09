@@ -35,13 +35,14 @@ angular
         controller: 'ProjectsCtrl',
         controllerAs: 'projects'
       })
-      .when('/news/:newsName', {
+      //.when('/news/:newsName', {
+      .when('/news', {
         templateUrl: 'views/news.html',
         controller: 'NewsCtrl',
         controllerAs: 'news'
       })
       .otherwise({
-        redirectTo: '/about'
+        redirectTo: '/news'
       });
   })
   .run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){

@@ -9,5 +9,6 @@
  */
 angular.module('studiojeimsonApp')
   .controller('NewsCtrl', ['$routeParams', function ($routeParams) {
-    this.template = $routeParams.newsName;
+    //this.template = $routeParams.newsName;
+    this.template = 'whatsnew';
   }]);
