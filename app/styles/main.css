@@ -78,7 +78,7 @@ h6 {
 #header {
   height: 100px;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .shiny-news {
@@ -129,7 +129,8 @@ a:active  {color:yellow; background-color:transparent; text-decoration:underline
 
 #logo {
   height: 130px;
-  padding-top: 30px;
+  padding-top: 21px;
+  margin-left: -60px;
 }
 
 #main-page-sidebar {
