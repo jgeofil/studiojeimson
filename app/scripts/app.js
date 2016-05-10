@@ -41,6 +41,11 @@ angular
         controller: 'NewsCtrl',
         controllerAs: 'news'
       })
+      .when('/uitnodiging', {
+        templateUrl: 'views/uitnodiging.html',
+        controller: 'UitnodigingCtrl',
+        controllerAs: 'uit'
+      })
       .otherwise({
         redirectTo: '/news'
       });
