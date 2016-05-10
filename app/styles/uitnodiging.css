@@ -9,7 +9,7 @@
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('/images/uitnodiging/boom.jpg') no-repeat;
+ background: url('/images/uitnodiging/bg-img.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -116,6 +116,6 @@ section {
   div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
-  html {  background: url('/images/uitnodiging/boom.jpg') #000 no-repeat center center fixed; }
+  html {  background: url('/images/uitnodiging/bg-img.jpg') #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
