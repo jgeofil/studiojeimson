@@ -1,10 +1,15 @@
 [
   {
+    "title": "Vision showcase 01",
+    "file": "vision-showcase01",
+    "new": true
+  },
+  {
     "title": "Amsterdam Eats",
     "file": "amsterdam-eats",
     "new": true
   },
-  {
+    {
     "title": "Visuals by Studio Jeimson",
     "file": "visuals-by-studio-jeimson",
     "new": true
@@ -52,6 +57,11 @@
   {
     "title": "Submarine Wharf",
     "file": "submarine-wharf",
+    "new": true
+  },
+  {
+    "title": "Blijdorp Festival Scenography",
+    "file": "Blijdorp2015",
     "new": true
   },
   {
