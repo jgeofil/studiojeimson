@@ -45,6 +45,11 @@
     "new": true
   },
   {
+    "title": "Abstraction",
+    "file": "abstraction",
+    "new": true
+  },
+  {
     "title": "Contra - the Weekender",
     "file": "contra-weekender",
     "new": true
